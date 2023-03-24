@@ -1,0 +1,25 @@
+.forecast {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  @media (max-width: 800px) {
+    gap: 10px;
+  }
+  &__current {
+    align-self: center;
+  }
+  &__daily {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    @media (max-width: 800px) {
+      gap: 10px;
+    }
+    @media (max-width: 466px) {
+      gap: 5px;
+    }
+  }
+}

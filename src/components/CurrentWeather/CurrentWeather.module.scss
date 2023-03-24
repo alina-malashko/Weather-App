@@ -1,0 +1,43 @@
+.weather {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__icon {
+    height: 100px;
+    width: 100px;
+    @media (max-width: 1680px) {
+      height: 80px;
+      width: 80px;
+    }
+    @media (max-width: 1536px) {
+      height: 64px;
+      width: 64px;
+    }
+    @media (max-width: 800px) {
+      height: 48px;
+      width: 48px;
+    }
+    & img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  &__data {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    &__label {
+      background-color: #1b243d;
+      border-radius: 20px;
+      padding: 5px 10px;
+      font-size: 0.7em;
+      text-transform: uppercase;
+      width: fit-content;
+    }
+    &__temperature {
+      font-size: 2.5em;
+    }
+  }
+}

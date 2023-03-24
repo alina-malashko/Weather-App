@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+  @media (max-width: 1680px) {
+    & svg {
+      width: 18px;
+      height: 18px
+    }
+  }
+  @media (max-width: 1536px) {
+    & svg {
+      width: 12px;
+      height: 12px
+    }
+  }
+  @media (max-width: 1280px) {
+    & svg {
+      width: 10px;
+      height: 10px
+    }
+  }
+}

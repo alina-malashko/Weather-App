@@ -1,0 +1,22 @@
+.location {
+  text-align: right;
+  line-height: 1.4;
+  &__input {
+    font-size: 1.7em;
+    color: #FFFFFF;
+    background-color: transparent;
+    font-family: 'SF Display Pro', sans-serif;
+    width: 200px;
+    border-radius: 10px;
+    border-color: #FFFFFF;
+    border-width: 1px;
+    text-align: right;
+  }
+  &__city {
+    font-size: 1.7em;
+    cursor: pointer;
+  }
+  &__country {
+    font-size: 0.875em;
+  }
+}

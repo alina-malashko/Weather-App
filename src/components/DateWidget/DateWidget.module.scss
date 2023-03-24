@@ -1,0 +1,14 @@
+.clock {
+  &__time {
+    line-height: 1.3;
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+    & p {
+      font-size: 2.8em;
+    }
+  }
+  &__date {
+    padding-left: 3px;
+  }
+}
